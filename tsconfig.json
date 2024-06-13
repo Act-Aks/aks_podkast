@@ -5,6 +5,17 @@
     "skipLibCheck": true,
     "strict": true,
     "noEmit": true,
+    "target": "ES2017",
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noImplicitOverride": true,
+    "skipDefaultLibCheck": true,
+    "newLine": "lf",
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "bundler",
@@ -12,6 +23,10 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "reactNamespace": "React",
+    "removeComments": true,
+    "resolvePackageJsonImports": true,
+    "importHelpers": true,
     "plugins": [
       {
         "name": "next"
